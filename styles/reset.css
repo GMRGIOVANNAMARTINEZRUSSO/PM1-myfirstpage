@@ -1,112 +1,51 @@
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
     padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background: transparent;
 }
 
-html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-h1 {
-    margin-top: 50px; 
-}
-
-h2 {
-    margin-bottom: 50px; 
-}
-
-body {
-    margin: 0;
-    font-size: 16px; 
-    line-height: 1.5;
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.box {
-    text-align: center;
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.box img {
-    width: 100px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-weight: normal;
-}
-
-
-ul, ol {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    padding-left: 0;
-    list-style: none;
-}
-
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-button, input, optgroup, select, textarea {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
-
-iframe, embed, object, video {
-    max-width: 100%;
-    height: auto;
+body {
+    line-height: 1;
 }
 
+ol, ul {
+    list-style: none;
+}
 
-address {
-    font-style: normal;
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
