@@ -26,7 +26,7 @@
             
         <section>
          <h2> Un Poco Sobre Mi</h2>
-           <article><p>Soy Lic en kinesiologia y fisiatria, actualmente estudiante de la carrera de Full Stack Denveloper en Henry, con ganas de generar nuevos conocimientos en el mundo de la tecnologia </p>
+           <article><p>Bienvenido a mi pagina, Soy Lic en kinesiologia y fisiatria, actualmente estudiante de la carrera de Full Stack Denveloper en Henry, con ganas de generar nuevos conocimientos en el mundo de la tecnologia </p>
            </article>
         </section>
     </div>
@@ -38,17 +38,17 @@
           
               <div class="box dos">
                 <h3>HTML</h3>
-                <img src="./assets/html.png" alt="Imagen no encontrada"/>
+                <img src="./assets/html.png" alt="Imagen" id="imagen" class="resaltar">
               </div>
           
               <div class="box dos">
                 <h3>CSS</h3>
-                <img src="./assets/css.png" alt="Imagen no encontrada"/>
-              </div>
+                <img src="./assets/css.png" alt="Imagen" id="imagen" class="resaltar">
+                </div>
           
               <div class="box dos">
                 <h3>JavaScript</h3>
-                <img src="./assets/js.png" alt="Imagen no encontrada"/>
+                <img src="./assets/js.png" alt="Imagen" id="imagen" class="resaltar">
               </div>
             </section>
           </div>
@@ -56,43 +56,34 @@
           
         <section>
           <h2>Mis Actividades Favoritas</h2>
-            <form action="" class="form-container">
+            <form action="" class="form-container" id="actividadesForm">
               <div class="form-group">
-                <input type="text" name="nombreActividad" placeholder="Nombre de la Actividad"></div>
+                <input type="text" id="nombreActividadform" placeholder="Nombre de la Actividad"></div>
                 <br>
                 <div class="form-group">
-                <textarea name="Descripción"  ìd=""  cols="30" rows="10" placeholder="Descripción de la Actividad"></textarea></div>
+                <textarea id="Descripcionform"  cols="30" rows="10" placeholder="Descripcion de la Actividad"></textarea></div>
                 <br>
                 <div class="form-group">
-                <input type="text" name="linkImagen" placeholder="Link de la imagen"></div>
+                <input type="text" id="linkImagenform" placeholder="Imagen de la actividad"></div>
                 <br>
-                <button type="submit">Enviar Actividad</button>
+                <button id="enviar" type="submit">Enviar Actividad</button>
             </form>
 
-            <div class="image-container">
-            <div class="box tres">
-              <h3>Ir al Gimnasio</h3>
-              <img src="https://th.bing.com/th/id/OIP.SQNUFLaeISHaPOxAqQ8kZAHaE8?pid=ImgDet&w=171&h=114.022265625&c=7" alt="Imagen no encontrada"/>
-            </div>
 
-            <div class="box tres">
-              <h3>Leer un Libro</h3>
-              <img src="https://th.bing.com/th/id/OIP.cOtBCMWvmrVN0GtGoudOpwHaE8?pid=ImgDet&w=171&h=114.08906250000001&c=7" alt="Imagen no encontrada"/>
-            </div>
 
-            <div class="box tres">
-              <h3>Comer Sano</h3>
-              <img src="https://th.bing.com/th/id/OIP.h9JxS6QRNbHkPcqmoyH7LQHaE8?pid=ImgDet&w=171&h=113.95546875000001&c=7" alt="Imagen no encontrada"/>
-            </div>
+            <div class="image-container" id="Actividades">
+              
+        
           </div>
+          
        </section>
       </main>
+
       <script src="./scripts/index.js"></script>
-    </body>
 
     <footer>
           <h2>GMNR</h2>
           <p>Todos los derechos reservados 2024</p>
     </footer>
-
+  </body>
 </html>
